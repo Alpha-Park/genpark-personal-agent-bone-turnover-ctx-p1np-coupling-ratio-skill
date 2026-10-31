@@ -1,0 +1,22 @@
+{
+  "name": "genpark-personal-agent-bone-turnover-ctx-p1np-coupling-ratio-skill",
+  "version": "1.0.0",
+  "description": "Serum C-telopeptide CTX vs P1NP bone formation-resorption uncoupling velocity and osteopenia kinetic forecast.",
+  "category": "personal_agent",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "analyze_bone_turnover_coupling",
+      "description": "Serum C-telopeptide CTX vs P1NP bone formation-resorption uncoupling velocity and osteopenia kinetic forecast.",
+      "sample_input": {
+        "s_ctx_ng_ml": 0.32,
+        "total_p1np_ug_l": 44.0,
+        "dexas_t_score": -0.8,
+        "sex": "FEMALE"
+      }
+    }
+  ]
+}
